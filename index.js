@@ -14,8 +14,6 @@ function fuzzyMatch(drivers, string){
 
 function matchName(drivers, string){
   return drivers.filter(function(name){
-     if(name===string){
-       return drivers;
-     }
+       return drivers.(string);
   });
 }
