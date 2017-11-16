@@ -1,10 +1,9 @@
 // Code your solution in this file
-function findMatching(drivers){
-  for (const user of collection){
-    console.log(drivers.name);
+function findMatching(list, name){
+  return list.filter(function (driverName)){
+    return driverName.toLowerCase()===name.toLowerCase();
   }
 }
-findMatching(drivers);
 /*
 function fuzzyMatch(){
 
